@@ -1,7 +1,16 @@
 aid: remnote
 name: Remnote
-description: Remnote is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RemNote is an AI-powered note-taking, spaced-repetition, and PDF-annotation
+  study platform founded at MIT and backed by General Catalyst, used by over a
+  million students to take notes, generate flashcards, annotate PDFs and slides,
+  and study with an integrated spaced-repetition queue and AI tutor. For
+  developers, RemNote exposes a first-party front-end Plugin SDK
+  (@remnote/plugin-sdk) — a React-first, sandboxed extension platform with a Rem
+  API, hooks, widgets, and virtual embeds — rather than a hosted backend REST
+  API. Plugins run either sandboxed in an iframe or natively on the main thread,
+  with scoped access at the Rem, Document, and Powerup level, and are published
+  through an in-app plugin marketplace after a code-review process.
 url: https://raw.githubusercontent.com/api-evangelist/remnote/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,83 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.remnote.com/favicon.ico
 tags:
 - Company
+- Note Taking
+- Knowledge Management
+- Spaced Repetition
+- Flashcards
+- Education
+- Productivity
+- Plugin SDK
+- AI
+- Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/remnote-domain-security.yml
+- type: Packages
+  url: packages/remnote-packages.yml
+- type: SDKs
+  url: packages/remnote-packages.yml
+- type: LLMsTxt
+  url: llms/remnote-llms.txt
+- type: Lifecycle
+  url: lifecycle/remnote-lifecycle.yml
+- type: ChangeLog
+  url: changelog/remnote-changelog.yml
+- type: Website
+  url: https://www.remnote.com
+- type: DeveloperPortal
+  url: https://plugins.remnote.com/
+- type: Documentation
+  url: https://plugins.remnote.com/
+- type: APIReference
+  url: https://plugins.remnote.com/api/modules
+- type: GettingStarted
+  url: https://plugins.remnote.com/getting-started/quick_start_guide
+- type: HelpCenter
+  url: https://help.remnote.com/
+- type: Blog
+  url: https://www.remnote.com/blog
+- type: GitHubOrganization
+  url: https://github.com/remnoteio
+- type: Roadmap
+  url: https://feedback.remnote.com/
+- type: ChangeLog
+  url: https://plugins.remnote.com/CHANGELOG
+- type: Pricing
+  url: https://www.remnote.com/pricing
+- type: SignUp
+  url: https://www.remnote.com/sign_up
+- type: TermsOfService
+  url: https://www.remnote.com/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.remnote.com/privacy_policy
+- type: StatusPage
+  url: https://status.remnote.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

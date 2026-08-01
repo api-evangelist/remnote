@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://plugins.remnote.com/CHANGELOG
+subject: "@remnote/plugin-sdk"
+scheme: semver
+current_version: 0.0.46
+notes: >-
+  Dated release dates are not published on the SDK changelog; entries are
+  ordered by version. Recent window captured verbatim from the published
+  changelog.
+entries:
+- version: '0.0.39'
+  highlight: "plugin.app.registerPowerup updated to accept object arguments."
+  breaking: false
+- version: '0.0.38'
+  highlight: "Added cardId to the AppEvents.RevealAnswer event data."
+  breaking: false
+- version: '0.0.37'
+  highlight: "Added plugin.app.waitForInitialSync for syncing with third-party services."
+  breaking: false
+- version: '0.0.36'
+  highlight: "Added plugin.queue.getCurrentCard for flashcard queue access."
+  breaking: false
+- version: '0.0.35'
+  highlight: "CSS fixes improving native plugin appearance in dark mode."
+  breaking: false
+- version: '0.0.34'
+  highlight: "Added WidgetLocation.FlashcardUnder for positioning under flashcard content."
+  breaking: false
+- version: '0.0.33'
+  highlight: "New queueItemTypeFilter for widget registration."
+  breaking: false
+- version: '0.0.32'
+  highlight: "Launched reader namespace (PDF/web reader methods) and document viewer component."
+  breaking: false

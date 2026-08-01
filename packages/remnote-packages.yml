@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@remnote/plugin-sdk
+packages:
+- language: typescript
+  registry: npm
+  name: "@remnote/plugin-sdk"
+  url: https://www.npmjs.com/package/@remnote/plugin-sdk
+  install: npm install @remnote/plugin-sdk
+  version: 0.0.46
+  license: ISC
+  official: true
+  description: >-
+    Official RemNote Plugin SDK. React-first, TypeScript library for building
+    sandboxed or native RemNote plugins — exposes the Rem API, app hooks,
+    widgets, virtual embeds, queue and reader namespaces. Publisher: remnote.com.

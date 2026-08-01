@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://plugins.remnote.com/CHANGELOG
+subject: "@remnote/plugin-sdk"
+versioning:
+  scheme: semver
+  current: 0.0.46
+  docs: https://plugins.remnote.com/CHANGELOG
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    No formal deprecation policy or RFC 8594 Sunset/Deprecation header support
+    is published for the front-end Plugin SDK.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.remnote.com
+deprecated_operations: []
