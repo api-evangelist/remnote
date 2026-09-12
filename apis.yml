@@ -42,7 +42,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-06'
 image: https://www.remnote.com/favicon.ico
 tags:
 - Company
@@ -110,6 +110,9 @@ common:
   url: https://www.remnote.com/privacy_policy
 - type: StatusPage
   url: https://status.remnote.com
+- name: MCP Documentation
+  url: https://help.remnote.com/en/articles/16424066-connecting-ai-agents-to-remnote-with-mcp
+  type: MCPDocumentation
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
